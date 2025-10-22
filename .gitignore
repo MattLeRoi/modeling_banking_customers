@@ -1,5 +1,5 @@
-catboost_info/
-data_for_evaluation/
+./catboost_info/
+./data_for_evaluation/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

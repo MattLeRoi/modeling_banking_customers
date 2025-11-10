@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\mleroi\\AppData\\Local\\anaconda3\\python.exe",
+  "jupyter.kernels.filter": [],
+  "jupyter.kernels.trusted": [],
+  "jupyter.defaultKernel": "python3",
+  "notebook.defaultFormatter": "ms-python.python"
+}

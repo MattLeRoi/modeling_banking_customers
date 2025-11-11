@@ -32,17 +32,19 @@ The bank would like to know which customers to give special attention to, but al
 
 The baseline models each performed well, with the CatBoost Classifier performing the best. It was then tuned and improved further, with the results shown below: 
 
-![model_comparison.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/model_comparison.png)
+![model_comparison.png](./images/model_comparison.png)
 
 The most significant contributors to the model were found to be:
 1. Call duration (longer calls were more likely to sign)
-2. Previous outcome success (a previously successful outcome was more likely to 
-3. Whether the customer had a housing loan
-4. Contact type
-5. Number of contacts during per campaign
+2. Previous outcome success (a previously successful outcome was more likely to lead to another successful outcome)
+3. Whether the customer had a housing loan (having a housing loan was negatively associated with a customer signing)
+4. Contact type (unknown contact types were less likely to sign)
+5. Number of contacts during per campaign (more contacts were more likely to sign)
 
-![poutcome.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/7a73f3a16a3f5e7ea9db0c4a3837c3cfd2ef0d26/images/poutcome2.png)
-![loan.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/loan.png)
+These charts show that a previously successful outcome was more likely to lead to another successful outcome and that having a housing loan was negatively associated with a customer signing.
+
+![poutcome.png](./images/poutcome2.png)
+![loan.png](./images/loan.png)
 
 ## Limitations
 
@@ -50,11 +52,9 @@ The available data is from Portuguese customers and cultural differences to the 
 
 ## Recommendations
 
-1. Run a controlled experiment - a/b testing, instruct the agents focus on increasing the call durations to determine whether this was a causal or correlative relationship.
-2. Specifically target previous customers.
-3. Focus more on those without home loans.
-4. Collect more detailed data - fill in all fields.
-5. The data varied by month. May be some kind of seasonality, but also may have been due to the timing of the marketing campaign, which I don't have. Investigate further.
+1. Collect more detailed data - filling in all of the missing data may lead to further insights.
+2. Run a controlled experiment - design an experiment to determine whether call duration and number of contacts are causal or correlative relationships.
+3. The data varied by month, both in volume and in the success rate. This may indicate seasonality or it may have been due to the timing of the marketing campaign, which I don not have access to. It is worth further investigation
 
 ## For More Information
 
@@ -66,5 +66,5 @@ For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gm
 ├── images
 ├── data
 ├── README.md
-└── noteboook.ipynb
+└── index.ipynb
 ``` 

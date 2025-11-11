@@ -41,7 +41,7 @@ The most significant contributors to the model were found to be:
 4. Contact type
 5. Number of contacts during per campaign
 
-![poutcome.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/poutcome2.png)
+![poutcome.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/7a73f3a16a3f5e7ea9db0c4a3837c3cfd2ef0d26/images/poutcome2.png)
 ![loan.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/loan.png)
 
 ## Limitations

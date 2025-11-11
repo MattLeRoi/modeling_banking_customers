@@ -2,6 +2,8 @@
 
 **Author**: [Matt LeRoi](mailto:mcleroi@gmail.com) 
 
+![model_comparison.png](./images/bank.jpg)
+
 # Overview
 
 The banking industry runs on trust - a customer's faith that the money they are giving to the bank will be held safely and that the bank's promises will be kept. The acquisition cost of a customer can be high, but once a relationship is established it can be lasting and valuable. 

@@ -30,33 +30,31 @@ The bank would like to know which customers to give special attention to, but al
 
 # Conclusion
 
-The baseline models each performed well, with the CatBoost Classifier performing the best. It was then tuned and improved further, see below. 
-
-
-
+The baseline models each performed well, with the CatBoost Classifier performing the best. It was then tuned and improved further, with the results shown below: 
 
 ![model_comparison.png](./images/model_comparison.png)
 
+The most significant contributors to the model were found to be:
+1. Call duration (longer calls were more likely to sign)
+2. Previous outcome success (a previously successful outcome was more likely to 
+3. Whether the customer had a housing loan
+4. Contact type
+5. Number of contacts during per campaign
 
-The final logistic regression model achieved a profit of $1300, correctly identifying 35 out of 101 churning customers, with 40 falsely identified churning customers. This is a positive result, literally, with a positive dollar value associated with it, but identifying roughly a third of the churning customers is not nearly as accurate as I would like.
-
-The final hypertuned decision tree classifier model outperformed the logistic regression model, achieving a profit of $4180 after hypertuning, correctly identifying 75 out of 101 churning customers, with 16 falsely identified churning customers. 
+![poutcome.png](./images/poutcome.png)
+![loan.png](./images/loan.png)
 
 ## Limitations
 
-The available data covers a small number of customers in one geographical area and only includes basic usage and account data. It appears that there is enough to be useful, but more detailed data could be extremely helpful to refine the model further. Also, the financial evaluation is based on rough estimates, so further experimentation can refine the evaluation criteria.
+The available data is from Portuguese customers and cultural differences to the US or other countries may mean that the learnings here may not transfer perfectly. Also, a few columns like previous outcome and contact type have a high number of unknown entries, but still contribute significantly to the model. Finally, the model identifies correlations, which do not necessarily imply a causal relationship. 
 
 ## Recommendations
 
-The model provided should yield positive results. Broader data, however, covering more of SyriaTel’s customers and containing more varied and detailed information, should help refine the model. Also, a few insights from how the classification tree was built:
-
-Customers with high usage and no voice mail plan churned at a very high rate, ~90%. I recommend looking into this group further. Is this line only used for a specific purpose and then closed? These could be high value customers since their usage is high, so the rewards for solving their high churn rate could be great.
-
-Customers with low usage and high customer service calls churned at a high rate, unsurprisingly. Looking for patterns in customer service calls may lead to better customer engagement with more usage and greater retention.
-
-Finally, customers with low usage, few customer service calls, and no international plan stayed at a relatively high rate. Generally speaking, customers with higher usage churned at a higher rate in several points in the tree. It may be worth looking into pricing strategies that reward greater use rather than a flat per-minute rate. This could help retain the high value customers and prompt other customers to use the service more.
-
-![Classification_tree.png](./images/Classification_tree.png)
+1. Run a controlled experiment - a/b testing, instruct the agents focus on increasing the call durations to determine whether this was a causal or correlative relationship.
+2. Specifically target previous customers.
+3. Focus more on those without home loans.
+4. Collect more detailed data - fill in all fields.
+5. The data varied by month. May be some kind of seasonality, but also may have been due to the timing of the marketing campaign, which I don't have. Investigate further.
 
 ## For More Information
 

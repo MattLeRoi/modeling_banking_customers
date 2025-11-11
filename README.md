@@ -20,20 +20,27 @@ Several baseline models were created for this project (LogisticRegression, Decis
 
 # Evaluation
 
-The bank would like to know which customers to give special attention to, but also does't want to waste its energy on customers unlikely to sign. The Area Under the Curve of the Receiver Operating Characteristic curve (ROC-AUC) is a metric that takes into account both the true positive and false positive rates, and will be used for evaluation and comparison between models. 
+The bank would like to know which customers to give special attention to, but also doesn't want to waste its energy on customers unlikely to sign. The Area Under the Curve of the Receiver Operating Characteristic curve (ROC-AUC) is a metric that takes into account both the true positive and false positive rates, and will be used for evaluation and comparison between models. A general sense of how to interpret the result is [published here](https://www.deepchecks.com/question/what-is-a-good-roc-curve-score/#:~:text=How%20to%20interpret%20AUC%20score,Discrimination%20of%200.7%2D0.8%20=%20Acceptable) and reproduced below:
 
-\(1.0\): Perfect classifier. \(0.5\): No discrimination; the model is no better than random chance.  \(0.5-0.7\): Poor to inadequate discrimination.  \(0.7-0.8\): Acceptable discrimination.  \(0.8-0.9\): Good discrimination.  \(0.9-1.0\): Excellent discrimination. 
-
-The goal of this project is financial, to increase profits for SyriaTel. The recall and precision scores are relevant, as we are trying to identify as many of the churning customers as possible (recall rate) while limiting the number of customers we reach out to unnecessarily (precision rate). To combine these two scores, I have taken the estimate provided by SyraiTel to directly calculate the actual financial impact to the company. Each correctly identified churning customer (True Positive, TP) is worth $80 on average, and every person SyriaTel reaches out to (True Positive plus False Positive, TP+FP) costs $20. The final evaluation criterion is then: $80TP + $20*(TP+FP), which is the total profit (or loss) of the experiment.
-
+1.0: Perfect classifier  
+0.9-1.0: Excellent discrimination  
+0.7-0.9: Acceptable discrimination  
+0.5-0.7: Poor to inadequate discrimination  
+0.5: No discrimination; the model is no better than random chance  
 
 # Conclusion
+
+The baseline models each performed well, with the CatBoost Classifier performing the best. It was then tuned and improved further, see below. 
+
+
+
+
+![model_comparison.png](./images/model_comparison.png)
+
 
 The final logistic regression model achieved a profit of $1300, correctly identifying 35 out of 101 churning customers, with 40 falsely identified churning customers. This is a positive result, literally, with a positive dollar value associated with it, but identifying roughly a third of the churning customers is not nearly as accurate as I would like.
 
 The final hypertuned decision tree classifier model outperformed the logistic regression model, achieving a profit of $4180 after hypertuning, correctly identifying 75 out of 101 churning customers, with 16 falsely identified churning customers. 
-
-![model_comparison.jpg](./images/model_comparison.jpg)
 
 ## Limitations
 

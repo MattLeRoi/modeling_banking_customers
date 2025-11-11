@@ -32,7 +32,7 @@ The bank would like to know which customers to give special attention to, but al
 
 The baseline models each performed well, with the CatBoost Classifier performing the best. It was then tuned and improved further, with the results shown below: 
 
-![model_comparison.png](./images/model_comparison.png)
+![model_comparison.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/model_comparison.png)
 
 The most significant contributors to the model were found to be:
 1. Call duration (longer calls were more likely to sign)
@@ -41,8 +41,8 @@ The most significant contributors to the model were found to be:
 4. Contact type
 5. Number of contacts during per campaign
 
-![poutcome.png](./images/poutcome.png)
-![loan.png](./images/loan.png)
+![poutcome.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/poutcome2.png)
+![loan.png](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/images/loan.png)
 
 ## Limitations
 
@@ -58,7 +58,7 @@ The available data is from Portuguese customers and cultural differences to the 
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./notebook.ipynb).
+See the full analysis in the [Jupyter Notebook](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/index.ipynb).
 
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 

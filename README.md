@@ -64,11 +64,9 @@ See the full analysis in the [Jupyter Notebook](https://github.com/MattLeRoi/mod
 
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 
-```
 * [images](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/images)
 * [data](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/data)
 * [.gitignore](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/.gitignore)
 * [README.md](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/README.md)
 * [index.ipynb](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/index.ipynb)
 * [slides.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/slides.pdf)
-``` 

@@ -10,7 +10,7 @@ The banking industry runs on trust - a customer's faith that the money they are 
 
 # Business Understanding
 
-A Portuguese banking institution recorded data about the potential customers targeted for a phone marketing outreach campaign. This involved one or a series of calls. A more detailed understanding of the results of these campaigns could show which customers are more likely to sign, or show which details about the interactions are most likely to lead to customers signing.
+A Portuguese banking institution recorded data (published [here](https://www.kaggle.com/datasets/adityamhaske/bank-marketing-dataset)) about the potential customers targeted for a phone marketing outreach campaign. This involved one or a series of calls. A more detailed understanding of the results of these campaigns could show which customers are more likely to sign, or show which details about the interactions are most likely to lead to customers signing.
 
 # Data
 
@@ -56,18 +56,19 @@ The available data is from Portuguese customers and cultural differences to the 
 
 1. Collect more detailed data - filling in all of the missing data may lead to further insights.
 2. Run a controlled experiment - design an experiment to determine whether call duration and number of contacts are causal or correlative relationships.
-3. The data varied by month, both in volume and in the success rate. This may indicate seasonality or it may have been due to the timing of the marketing campaign, which I don not have access to. It is worth further investigation
+3. The data varied by month, both in volume and in the success rate. This may indicate seasonality or it may have been due to the timing of the marketing campaign, which I do not have access to. It is worth further investigation.
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/index.ipynb).
+See the full analysis in the [Jupyter Notebook](https://github.com/MattLeRoi/modeling_banking_customers/blob/722afea03697297c749dc68586ffdfb688c3a7dd/index.ipynb) and the [presentation](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/slides.pdf).
 
 For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gmail.com)
 
 ```
-├── images
-├── data
-├── README.md
-└── index.ipynb
-└── Bank-Marketing-Campaign-Analysis.pdf
+* [images](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/images)
+* [data](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/data)
+* [.gitignore](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/.gitignore)
+* [README.md](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/README.md)
+* [index.ipynb](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/index.ipynb)
+* [slides.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/slides.pdf)
 ``` 

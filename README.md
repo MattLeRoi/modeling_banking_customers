@@ -68,7 +68,7 @@ For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gm
 
 * [images](images)
 * [data](data)
-* [.gitignore](gitignore)
+* [.gitignore](.gitignore)
 * [README.md](README.md)
 * [index.ipynb](index.ipynb)
 * [slides.pdf](slides.pdf)

@@ -73,4 +73,4 @@ For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gm
 * [index.ipynb](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/index.ipynb)
 * [slides.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/slides.pdf)
 * [github.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/github.pdf)
-* [notebook.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/notebook.pdf)
+* [notebook.pdf](notebook.pdf)

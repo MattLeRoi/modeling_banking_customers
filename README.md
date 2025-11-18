@@ -66,11 +66,11 @@ For additional info, contact Matt LeRoi at [mcleroi@gmail.com](mailto:mcleroi@gm
 
 ## Github file structure
 
-* [images](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/images)
-* [data](https://github.com/MattLeRoi/modeling_banking_customers/tree/de0ef8118090d63ecfa5498add450aa5978b6854/data)
-* [.gitignore](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/.gitignore)
-* [README.md](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/README.md)
-* [index.ipynb](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/index.ipynb)
-* [slides.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/slides.pdf)
-* [github.pdf](https://github.com/MattLeRoi/modeling_banking_customers/blob/de0ef8118090d63ecfa5498add450aa5978b6854/github.pdf)
+* [images](images)
+* [data](data)
+* [.gitignore](gitignore)
+* [README.md](README.md)
+* [index.ipynb](index.ipynb)
+* [slides.pdf](slides.pdf)
+* [github.pdf](github.pdf)
 * [notebook.pdf](notebook.pdf)
